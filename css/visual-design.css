@@ -1,3 +1,37 @@
 body {
     background-color: #F0F0F0;
 }
+
+.circle{
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.red{
+    background-color:#E6563B;
+    text-color:white;
+
+}
+
+.blue{
+    background-color:#00ABA9;
+    text-color:white;
+
+}
+
+.green{
+    background-color:#7CB06C;
+    text-color:white;
+
+
+}
+
+.orange{
+
+    background-color:#EB9D3A;
+    text-color:white;
+
+}
