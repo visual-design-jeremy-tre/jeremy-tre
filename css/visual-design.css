@@ -1,37 +1,83 @@
 body {
-    background-color: #F0F0F0;
+    background-color: #E6E6E6;
 }
 
-.circle{
-    width: 50px;
-    height: 50px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-}
-
-.red{
-    background-color:#E6563B;
-    text-color:white;
-
-}
-
-.blue{
-    background-color:#00ABA9;
-    text-color:white;
-
-}
-
-.green{
-    background-color:#7CB06C;
-    text-color:white;
+.circle {
+    background-color: #fff;
+    border: 6px solid whitesmoke;
+    height: 80px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
 
 
 }
 
-.orange{
+.red {
+    background-color: #E6563B;
+    text-color: white;
+    text-combine: gsdf;
 
-    background-color:#EB9D3A;
-    text-color:white;
+}
 
+.blue {
+    background-color: #00ABA9;
+    text-color: white;
+
+}
+
+.green {
+    background-color: #7CB06C;
+    text-color: white;
+
+
+}
+
+.orange {
+
+    background-color: #EB9D3A;
+    text-color: white;
+
+
+}
+
+
+/*class {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    padding-left: 5em;*/
+/*    padding-right: 5em;*/
+/*}*/
+
+h2 {
+    margin-bottom: 90px;
+}
+
+hr {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: black;
+}
+
+h5 {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+ {
+    width: 200px;
+
+    padding: 50px;
+    margin: 20px;
+
+}
+class1 {
+    width: px;
+
+    padding: 50px;
+    margin: 00px;
 }
