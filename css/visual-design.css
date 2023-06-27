@@ -1,5 +1,6 @@
 body {
     background-color: #F0F0F0;
+    font-family: 'Anton', sans-serif;
 }
 
 .circle {
@@ -57,8 +58,8 @@ body {
 
 h5 {
    color: black;
-
-
-
 }
 
+.small-img {
+    width: 4rem;
+}
