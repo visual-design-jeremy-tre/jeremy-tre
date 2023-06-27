@@ -1,3 +1,6 @@
+:root {
+    --bs-breakpoint-md: 800px;
+}
 body {
     background-color: #F0F0F0;
     font-family: 'Abel', sans-serif;
@@ -7,13 +10,13 @@ body {
     width: 90px;
     height: 90px;
     line-height: 70px;
-    font-size: .75rem;
+    font-size: 1rem;
     border-radius: 50%;
     border: 7px solid #FFF;
     color: #fff;
     text-align: center;
     background: #000;
-    font-weight: bold;
+    font-family: 'Anton', sans-serif;
 }
 
 .red{
@@ -50,16 +53,6 @@ body {
     max-width: 100%;
 }
 
-@media screen and (max-width: 500px) {
-    .circles-wrapper {
-        max-width: 220px;
-    }
-}
-
-h5 {
-   color: black;
-}
-
 .small-img {
     width: 4rem;
 }
@@ -68,4 +61,16 @@ h5 {
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Anton', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .hidden {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .circles-wrapper {
+        max-width: 220px;
+    }
 }
