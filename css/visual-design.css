@@ -44,6 +44,16 @@ body {
     font-weight: bold;
 }
 
+.circles-wrapper {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .circles-wrapper {
+        max-width: 220px;
+    }
+}
+
 
 
 
